@@ -1,0 +1,73 @@
+﻿@model User
+@{
+    Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+<link rel="stylesheet" href="~/css/Profile.css">
+
+<div class="profile-container">
+    <h2>Profil Bilgileri</h2>
+    <div class="profile-info">
+        <strong>Email:</strong> @Model.Mail
+    </div>
+    <div class="profile-info">
+        <strong>Ad:</strong> @Model.Name
+    </div>
+    <div class="profile-info">
+        <strong>Soyad:</strong> @Model.SurName
+    </div>
+    <div class="profile-info">
+        <strong>Doğum Tarihi:</strong> @Model.BirthDate.ToString("dd.MM.yyyy")
+    </div>
+    <div class="btn-group">
+        <a class="update-btn" asp-controller="AnaSayfa" asp-action="Guncelleme">Bilgileri Güncelle</a>
+    </div>
+</div>
+
+<style>
+    /* Sayfanın ortasında konumlandırma */
+    .profile-container {
+        width: 400px;
+        margin: 40px auto; /* Sayfanın ortasına alır */
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+        /* Başlık ayarları */
+        .profile-container h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+    /* Profil bilgileri stili */
+    .profile-info {
+        font-size: 1.1em;
+        color: #555;
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+        text-align: left;
+    }
+
+    /* Buton stili */
+    .btn-group {
+        margin-top: 20px;
+    }
+
+    .update-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #007bff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+        .update-btn:hover {
+            background-color: #0056b3;
+        }
+</style>

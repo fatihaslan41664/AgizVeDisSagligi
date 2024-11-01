@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktivite Tablosu</title>
+    <style>
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1.2em;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .table thead tr {
+            background-color: #4CAF50;
+            color: #ffffff;
+        }
+
+        .table th, .table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #dddddd;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .table tbody tr:hover {
+            background-color: #d1f0d1;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Son Hafta Aktivite Tablosu</h2>
+
+    @model List<object>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tip</th>
+                <th>Başlık</th>
+                <th>Açıklama</th>
+                <th>Tarih</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count == 0)
+            {
+                <tr>
+                    <td colspan="4" style="text-align:center;">Son bir haftada herhangi bir aktivite bulunamadı.</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var activity in Model)
+                {
+                    if (activity is Goal goal)
+                    {
+                        <tr>
+                            <td>Hedef</td>
+                            <td>@goal.Title</td>
+                            <td>@goal.Description</td>
+                            <td>@goal.CreatedDate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                    else if (activity is Situation situation)
+                    {
+                        <tr>
+                            <td>Durum</td>
+                            <td>@situation.SituationName</td>
+                            <td>@situation.HedefAdi</td>
+                            <td>@situation.CreatedDate.ToString("dd/MM/yyyy")</td>
+                        </tr>
+                    }
+                }
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

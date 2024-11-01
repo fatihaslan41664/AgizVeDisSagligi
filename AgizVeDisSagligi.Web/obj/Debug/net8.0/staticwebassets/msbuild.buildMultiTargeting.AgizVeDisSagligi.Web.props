@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AgizVeDisSagligi.Web.props" />
+</Project>

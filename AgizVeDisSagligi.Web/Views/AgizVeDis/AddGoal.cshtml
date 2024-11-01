@@ -1,0 +1,118 @@
+﻿@{
+    Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+@model Goal
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Sayfa arka plan rengi */
+    }
+
+    .form-container {
+        max-width: 600px; /* Form genişliği */
+        margin: 50px auto; /* Ortalamak için üst ve alt boşluk */
+        padding: 20px; /* İç boşluk */
+        background-color: white; /* Form arka plan rengi */
+        border-radius: 8px; /* Yuvarlatılmış köşeler */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    }
+
+    .form-group {
+        margin-bottom: 20px; /* Her form grubunun altına boşluk ekleyin */
+    }
+
+        .form-group label {
+            font-weight: bold; /* Kalın yazı tipi */
+            margin-bottom: 5px; /* Alt boşluk */
+        }
+
+    .btn-primary {
+        background-color: #4CAF50; /* Yeşil arka plan */
+        border: none; /* Kenar yok */
+        border-radius: 25px; /* Yuvarlak köşeler */
+        padding: 10px 20px; /* İç boşluk */
+        transition: background-color 0.3s ease; /* Geçiş animasyonu */
+    }
+
+        .btn-primary:hover {
+            background-color: #45a049; /* Hover'da renk değişimi */
+        }
+
+    .form-control {
+        border-radius: 5px; /* Giriş alanı köşeleri */
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Giriş alanı gölgesi */
+    }
+</style>
+
+<div class="form-container">
+    <form id="goalForm" asp-controller="AgizVeDis" asp-action="AddGoal" method="post" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label asp-for="Title">Başlık</label>
+            <input asp-for="Title" class="form-control" placeholder="Başlık girin" required>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description">Açıklama</label>
+            <textarea asp-for="Description" class="form-control" placeholder="Açıklama girin" required></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="Periot">Periyot</label>
+            <select asp-for="Periot" class="form-control" required>
+                <option value="" disabled selected>Seçin</option>
+                <option value="HerGun">Her Gün</option>
+                <option value="HerHafta">Her Hafta</option>
+                <option value="HerYıl">Her Yıl</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="Frequency">Sıklık</label>
+            <input asp-for="Frequency" type="number" class="form-control" placeholder="Sıklık girin" required>
+        </div>
+        <div class="form-group">
+            <label asp-for="PeriotLevel">Periyot Seviyesi</label>
+            <select asp-for="PeriotLevel" class="form-control" required>
+                <option value="" disabled selected>Seçin</option>
+                <option value="Düşük">Düşük</option>
+                <option value="Orta">Orta</option>
+                <option value="Yüksek">Yüksek</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+</div>
+
+<script>
+    function validateForm() {
+        // Form elemanlarını seç
+        const title = document.querySelector('input[name="Title"]');
+        const description = document.querySelector('textarea[name="Description"]');
+        const periot = document.querySelector('select[name="Periot"]');
+        const frequency = document.querySelector('input[name="Frequency"]');
+        const periotLevel = document.querySelector('select[name="PeriotLevel"]');
+
+        // Kontroller
+        if (!title.value) {
+            alert("Başlık boş olamaz.");
+            return false;
+        }
+        if (!description.value) {
+            alert("Açıklama boş olamaz.");
+            return false;
+        }
+        if (!periot.value) {
+            alert("Periyot seçilmelidir.");
+            return false;
+        }
+        if (!frequency.value) {
+            alert("Sıklık boş olamaz.");
+            return false;
+        }
+        if (!periotLevel.value) {
+            alert("Periyot Seviyesi seçilmelidir.");
+            return false;
+        }
+
+        return true; // Form geçerli ise gönder
+    }
+</script>
+

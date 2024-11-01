@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<div class="container">
+    <div class="suggestion">
+        @await Component.InvokeAsync("Suggestion")
+    </div>
+    <br />
+    <br />
+    <div class="summary">
+        @await Component.InvokeAsync("Summary")
+    </div>
+</div>
+
+

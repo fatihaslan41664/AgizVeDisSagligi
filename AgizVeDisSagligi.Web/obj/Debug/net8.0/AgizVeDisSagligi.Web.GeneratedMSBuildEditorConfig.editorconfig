@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AgizVeDisSagligi.Web
+build_property.RootNamespace = AgizVeDisSagligi.Web
+build_property.ProjectDir = C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AgizVeDis/AddGoal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdpelZlRGlzXEFkZEdvYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AgizVeDis/AddSituation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdpelZlRGlzXEFkZFNpdHVhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AgizVeDis/AddSituationToGoal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdpelZlRGlzXEFkZFNpdHVhdGlvblRvR29hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AgizVeDis/AgizVeDisSagligi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdpelZlRGlzXEFnaXpWZURpc1NhZ2xpZ2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AgizVeDis/Situation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdpelZlRGlzXFNpdHVhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AnaSayfa/Guncelleme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcR3VuY2VsbGVtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AnaSayfa/MainPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcTWFpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/AnaSayfa/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hU2F5ZmFcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/LoginRegister/dogrulama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5SZWdpc3Rlclxkb2dydWxhbWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/LoginRegister/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5SZWdpc3RlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/LoginRegister/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5SZWdpc3RlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/LoginRegister/SifremiUnuttum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5SZWdpc3RlclxTaWZyZW1pVW51dHR1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/LoginRegister/Sifreolustur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5SZWdpc3RlclxTaWZyZW9sdXN0dXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/Components/Goal/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcR29hbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/Components/Situation/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2l0dWF0aW9uXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/Components/Suggestion/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3VnZ2VzdGlvblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/Components/Summary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3VtbWFyeVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/_AnaLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbmFMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/_navbarGiris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZiYXJHaXJpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/salih/source/repos/AgizVeDisSagligi/AgizVeDisSagligi.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vo9xerd78h

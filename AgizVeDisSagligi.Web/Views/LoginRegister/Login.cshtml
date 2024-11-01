@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Giriş Yap";
+}
+@using AgizVeDisSagligi.Entity.DTOs
+@model UserLoginDto
+<h2>Giriş Yap</h2>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form asp-action="Login" method="post">
+                <div class="form-group mb-3">
+                    <label asp-for="Mail">E-posta Adresi</label>
+                    <input type="text" class="form-control" id="email" name="Mail" placeholder="E-posta adresinizi girin" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Passaword">Şifre</label>
+                    <input type="password" class="form-control" id="password" name="Passaword" placeholder="Şifrenizi girin" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-3">
+    <a asp-controller="Account" asp-action="Register">Hesabınız yok mu? Kayıt Olun.</a>
+</div>
+<div class="text-center mt-3">
+    <a asp-controller="LoginRegister" asp-action="SifremiUnuttum">Sifrenizi mi unuttunuz..</a>
+</div>

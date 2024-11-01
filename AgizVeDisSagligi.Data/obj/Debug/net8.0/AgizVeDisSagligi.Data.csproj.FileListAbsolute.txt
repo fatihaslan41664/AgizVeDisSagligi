@@ -1,0 +1,17 @@
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\bin\Debug\net8.0\AgizVeDisSagligi.Data.deps.json
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\bin\Debug\net8.0\AgizVeDisSagligi.Data.runtimeconfig.json
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\bin\Debug\net8.0\AgizVeDisSagligi.Data.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\bin\Debug\net8.0\AgizVeDisSagligi.Data.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\bin\Debug\net8.0\AgizVeDisSagligi.Entity.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\bin\Debug\net8.0\AgizVeDisSagligi.Entity.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.csproj.AssemblyReference.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.AssemblyInfoInputs.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.AssemblyInfo.cs
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.csproj.CoreCompileInputs.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDi.A9476F9D.Up2Date
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\refint\AgizVeDisSagligi.Data.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\AgizVeDisSagligi.Data.genruntimeconfig.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Data\obj\Debug\net8.0\ref\AgizVeDisSagligi.Data.dll

@@ -1,0 +1,17 @@
+﻿@model User
+
+<div class="container mt-5">
+    <h2>Şifrenizi Yenileyin</h2>
+
+    <!-- ASP.NET Core form -->
+    <form asp-controller="LoginRegister" asp-action="Sifreolustur" method="post" onsubmit="return validatePassword(event)">
+        <div class="form-group">
+            <label asp-for="Passaword">Yeni Şifre</label>
+            <input id="password" type="password" class="form-control" asp-for="Passaword" placeholder="Yeni şifrenizi girin" required />
+            <span asp-validation-for="Passaword" class="text-danger"></span> <!-- Validation message -->
+            <div id="error-message" class="text-danger"></div> <!-- Hata mesajı için bir alan -->
+        </div>
+        <button type="submit" class="btn btn-primary">Şifreyi Güncelle</button>
+    </form>
+</div>
+<script src="~/js/sifremiunuttum.js"></script>

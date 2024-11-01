@@ -1,0 +1,16 @@
+﻿
+<link rel="stylesheet" href="~/css/navbar.css" />
+
+<nav>
+    <h1 class="logo">@ViewBag.Username @ViewBag.SurName</h1>
+    <div class="ana-menu">
+        <label for="menu-check">MENU</label>
+        <input type="checkbox" id="menu-check" />
+        <ul class="menu-links">
+            <li><a href="/AnaSayfa/MainPage">ANA SAYFA</a></li>
+            <li><a href="/AgizVeDis/AgizVeDisSagligi">AGIZ VE DIS Sagligi</a></li>
+            <li><a href="/AnaSayfa/Profile">PROFİL</a></li>
+            <li><a asp-action="Logout" asp-controller="AnaSayfa" class="logout-button">Çıkış Yap</a></li>
+        </ul>
+    </div>
+</nav>

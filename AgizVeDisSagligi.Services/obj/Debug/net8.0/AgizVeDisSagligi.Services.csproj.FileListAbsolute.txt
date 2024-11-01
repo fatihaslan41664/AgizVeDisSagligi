@@ -1,0 +1,17 @@
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\bin\Debug\net8.0\AgizVeDisSagligi.Services.deps.json
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\bin\Debug\net8.0\AgizVeDisSagligi.Services.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\bin\Debug\net8.0\AgizVeDisSagligi.Services.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDisSagligi.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDisSagligi.Services.AssemblyInfoInputs.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDisSagligi.Services.AssemblyInfo.cs
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDisSagligi.Services.csproj.CoreCompileInputs.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDisSagligi.Services.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\refint\AgizVeDisSagligi.Services.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDisSagligi.Services.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\ref\AgizVeDisSagligi.Services.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDisSagligi.Services.csproj.AssemblyReference.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\bin\Debug\net8.0\AgizVeDisSagligi.Data.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\bin\Debug\net8.0\AgizVeDisSagligi.Entity.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\bin\Debug\net8.0\AgizVeDisSagligi.Data.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\bin\Debug\net8.0\AgizVeDisSagligi.Entity.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Services\obj\Debug\net8.0\AgizVeDi.87BAC528.Up2Date

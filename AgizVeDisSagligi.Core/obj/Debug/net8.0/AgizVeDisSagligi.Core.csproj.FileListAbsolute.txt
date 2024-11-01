@@ -1,0 +1,11 @@
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\bin\Debug\net8.0\AgizVeDisSagligi.Core.deps.json
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\bin\Debug\net8.0\AgizVeDisSagligi.Core.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\bin\Debug\net8.0\AgizVeDisSagligi.Core.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\AgizVeDisSagligi.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\AgizVeDisSagligi.Core.AssemblyInfoInputs.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\AgizVeDisSagligi.Core.AssemblyInfo.cs
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\AgizVeDisSagligi.Core.csproj.CoreCompileInputs.cache
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\AgizVeDisSagligi.Core.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\refint\AgizVeDisSagligi.Core.dll
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\AgizVeDisSagligi.Core.pdb
+C:\Users\salih\source\repos\AgizVeDisSagligi\AgizVeDisSagligi.Core\obj\Debug\net8.0\ref\AgizVeDisSagligi.Core.dll

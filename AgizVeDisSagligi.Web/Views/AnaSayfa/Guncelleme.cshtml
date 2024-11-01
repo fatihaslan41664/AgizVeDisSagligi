@@ -1,0 +1,188 @@
+﻿@model User
+@{
+    Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<h2>Profil Güncelleme</h2>
+
+<div class="update-form-container">
+    <form id="updateForm" asp-action="Guncelleme" method="post" onsubmit="return validateForm(event)">
+        <input type="hidden" name="Id" value="@Model.ID" />
+
+        <div class="form-group">
+            <label for="Mail">Email</label>
+            <input type="email" class="form-control" id="Mail" name="Mail" value="@Model.Mail" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Name">Ad</label>
+            <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Surname">Soyad</label>
+            <input type="text" class="form-control" id="Surname" name="SurName" value="@Model.SurName" required />
+        </div>
+
+        <div class="form-group">
+            <label for="BirthDate">Doğum Tarihi</label>
+            <input type="date" class="form-control" id="BirthDate" name="BirthDate" value="@Model.BirthDate.ToString("yyyy-MM-dd")" required />
+        </div>
+
+        <div class="form-group" id="password">
+            <label for="Password">Parola</label>
+            <input id="parola" type="password" class="form-control" name="passaword" placeholder="Yeni Parola" required />
+            <div id="error-message" class="error-message"></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+    </form>
+</div>
+
+<script>
+    function validateForm(event) {
+        // Get the email, password, name, surname, and birthdate field values
+        var email = document.getElementById("Mail").value;
+        var password = document.getElementById("parola").value;
+        var name = document.getElementById("Name").value;
+        var surname = document.getElementById("Surname").value;
+        var birthdate = document.getElementById("BirthDate").value;
+        var errorMessage = document.getElementById("error-message");
+
+        // Clear previous error message
+        errorMessage.textContent = "";
+
+        // Email Validation
+        // Email Validation
+        if (email === "") {
+            errorMessage.textContent = "Email boş olamaz!";
+            event.preventDefault();
+            return false;
+        }
+
+        if (email.length < 10) {
+            errorMessage.textContent = "Email en az 10 karakter uzunluğunda olmalıdır!";
+            event.preventDefault();
+            return false;
+        }
+
+        if (!email.includes("hotmail.com") && !email.includes("gmail.com")) {
+            errorMessage.textContent = "Email ya hotmail.com ya da gmail.com ile bitmelidir!";
+            event.preventDefault();
+            return false;
+        }
+
+
+        // Password Validation
+        if (password.length < 8) {
+            errorMessage.textContent = "Parola en az 8 karakter uzunluğunda olmalıdır!";
+            event.preventDefault();
+            return false;
+        }
+
+        if (!/[A-Z]/.test(password)) {
+            errorMessage.textContent = "Parola en az bir büyük harf içermelidir!";
+            event.preventDefault();
+            return false;
+        }
+
+        if (!/[a-z]/.test(password)) {
+            errorMessage.textContent = "Parola en az bir küçük harf içermelidir!";
+            event.preventDefault();
+            return false;
+        }
+
+        if (!/[0-9]/.test(password)) {
+            errorMessage.textContent = "Parola en az bir rakam içermelidir!";
+            event.preventDefault();
+            return false;
+        }
+
+        // Name Validation
+        if (name === "") {
+            errorMessage.textContent = "Ad alanı boş olamaz!";
+            event.preventDefault();
+            return false;
+        }
+
+        // Surname Validation
+        if (surname === "") {
+            errorMessage.textContent = "Soyad alanı boş olamaz!";
+            event.preventDefault();
+            return false;
+        }
+
+        // Birthdate Validation
+        if (birthdate === "") {
+            errorMessage.textContent = "Doğum tarihi boş olamaz!";
+            event.preventDefault();
+            return false;
+        }
+
+        return true; // Form geçerli ise gönder
+    }
+</script>
+
+<style>
+    /* Formu merkeze alma ve stillendirme */
+    .update-form-container {
+        width: 400px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Başlık ayarları */
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+    }
+
+    /* Form elemanları */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            font-size: 1em;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 1em;
+    }
+
+    /* Hata mesajı */
+    .error-message {
+        font-size: 0.9em;
+        color: red;
+        margin-top: 5px;
+    }
+
+    /* Güncelleme butonu */
+    .btn-primary {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+</style>

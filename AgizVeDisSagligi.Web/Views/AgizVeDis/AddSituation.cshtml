@@ -1,0 +1,72 @@
+﻿@model List<Goal>
+
+@{
+    Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+
+<h2 class="text-center">Hedefler</h2> <!-- Başlığı ortala -->
+
+<style>
+    .table-container {
+        max-width: 800px; /* Tablo maksimum genişliği */
+        margin: 50px auto; /* Ortalamak için üst ve alt boşluk */
+        padding: 20px; /* İç boşluk */
+        background-color: white; /* Tablo arka plan rengi */
+        border-radius: 8px; /* Yuvarlatılmış köşeler */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    }
+
+    .table {
+        width: 100%; /* Tablonun genişliği */
+        border-collapse: collapse; /* Kenarları birleştir */
+    }
+
+    .table th, .table td {
+        padding: 15px; /* Hücre içi boşluk */
+        text-align: left; /* Metin hizalaması */
+        border-bottom: 1px solid #ddd; /* Alt kenar */
+    }
+
+    .table th {
+        background-color: #f8f9fa; /* Başlık arka plan rengi */
+        font-weight: bold; /* Kalın yazı tipi */
+    }
+
+    .btn-primary {
+        background-color: #4CAF50; /* Yeşil arka plan */
+        border: none; /* Kenar yok */
+        border-radius: 25px; /* Yuvarlak köşeler */
+        padding: 8px 16px; /* İç boşluk */
+        transition: background-color 0.3s ease; /* Geçiş animasyonu */
+        color: white; /* Yazı rengi */
+        text-decoration: none; /* Alt çizgiyi kaldır */
+    }
+
+    .btn-primary:hover {
+        background-color: #45a049; /* Hover'da renk değişimi */
+    }
+</style>
+
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Hedef Adı</th>
+                <th>Durum Ekle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var goal in Model)
+            {
+                <tr>
+                    <td>@goal.Title</td>
+                    <td>
+                        <a asp-controller="AgizVeDis" asp-action="AddSituationToGoal" asp-route-goalId="@goal.Id" class="btn btn-primary">
+                            Durum Ekle
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

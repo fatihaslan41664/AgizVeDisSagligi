@@ -1,0 +1,43 @@
+﻿@model User
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .verification-container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+    .verification-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        font-weight: bold;
+    }
+</style>
+
+
+
+    <div class="container">
+        <div class="verification-container">
+            <h2>Doğrulama Kodu</h2>
+        <form asp-controller="LoginRegister" asp-action="dogrulama" method="post">
+            <!-- Doğru yönlendirme -->
+            <div class="form-group">
+                <label asp-for="ConfirmCode"> dogrulama kodunu giriniz</label>
+                <input asp-for="ConfirmCode" type="text" class="form-control"  required>
+            </div>
+            <div class="btn-group">
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (Opsiyonel) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
